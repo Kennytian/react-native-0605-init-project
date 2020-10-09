@@ -4,6 +4,10 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
+    "android-5.0": "$ANDROID_HOME/tools/emulator @Nexus_4_API_21",
+    "android-assemble-debug": "cd android && ./gradlew assembleDebug ; cd -",
+    "android-install-debug-apk": "android-uninstall ; adb install android/app/build/outputs/apk/debug/app-debug.apk",
+    "android-uninstall": "adb uninstall com.rn0605",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
@@ -11,22 +15,23 @@
   },
   "dependencies": {
     "react": "16.13.1",
-    "react-native": "0.63.2"
+    "react-native": "0.63.3",
+    "react-native-amap3d": "^2.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.4",
+    "@babel/core": "^7.11.6",
     "@babel/runtime": "^7.8.4",
     "@react-native-community/eslint-config": "^2.0.0",
-    "@types/jest": "^26.0.9",
-    "@types/react": "^16.9.44",
-    "@types/react-native": "^0.63.4",
+    "@types/jest": "^26.0.14",
+    "@types/react": "^16.9.51",
+    "@types/react-native": "^0.63.25",
     "@types/react-test-renderer": "^16.9.3",
-    "babel-jest": "^26.2.2",
-    "eslint": "^7.6.0",
-    "jest": "^26.2.2",
-    "metro-react-native-babel-preset": "^0.61.0",
+    "babel-jest": "^26.5.2",
+    "eslint": "^7.10.0",
+    "jest": "^26.5.2",
+    "metro-react-native-babel-preset": "^0.63.0",
     "react-test-renderer": "16.13.1",
-    "typescript": "^3.9.7"
+    "typescript": "^4.0.3"
   },
   "jest": {
     "preset": "react-native"
