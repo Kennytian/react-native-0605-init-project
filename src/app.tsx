@@ -9,8 +9,8 @@ const App = () => {
   const [zoomLevel, setZoomLevel] = useState(15);
   const [myCoordinates, setMyCoordinates] = useState([{ longitude: 0, latitude: 0, title: '', description: '' }]);
 
-  const logClickEvent = (data: LatLng) => {
-    console.log('onClick', data);
+  const onLongClick = (data: LatLng) => {
+    console.log('onLongClick', data);
     setMyCoordinates([...myCoordinates, { longitude: data.longitude, latitude: data.latitude, title: '', description: '' }]);
   };
 
@@ -52,7 +52,7 @@ const App = () => {
           style={{ width: '100%', height: '95%' }}
           locationEnabled
           zoomLevel={zoomLevel}
-          onClick={logClickEvent}
+          onLongClick={onLongClick}
           onStatusChangeComplete={logStatusChangeCompleteEvent}
           showsCompass={true}
           showsScale={true}

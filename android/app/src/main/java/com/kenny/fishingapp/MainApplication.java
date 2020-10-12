@@ -1,4 +1,4 @@
-package com.rn0605;
+package com.kenny.fishingapp;
 
 import android.app.Application;
 
@@ -63,7 +63,7 @@ public class MainApplication extends Application implements ReactApplication {
             We use reflection here to pick up the class that initializes Flipper,
            since Flipper library is not available in release mode
            */
-                Class<?> aClass = Class.forName("com.rn0605.ReactNativeFlipper");
+                Class<?> aClass = Class.forName("com.kenny.fishingapp.ReactNativeFlipper");
                 aClass.getMethod("initializeFlipper", Context.class, ReactInstanceManager.class).invoke(null, context, reactInstanceManager);
             } catch (ClassNotFoundException e) {
                 e.printStackTrace();

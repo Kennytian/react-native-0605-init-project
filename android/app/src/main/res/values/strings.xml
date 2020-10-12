@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">RN0605</string>
+    <string name="app_name">哪钓鱼开发版</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">UgkcRokfHbRmMUjPYYc3jemq5WqELYY0UotpY</string>
 </resources>

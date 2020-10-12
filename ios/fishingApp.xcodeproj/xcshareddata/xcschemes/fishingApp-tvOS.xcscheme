@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "RN0605-tvOS.app"
-               BlueprintName = "RN0605-tvOS"
-               ReferencedContainer = "container:RN0605.xcodeproj">
+               BuildableName = "fishingApp-tvOS.app"
+               BlueprintName = "fishingApp-tvOS"
+               ReferencedContainer = "container:fishingApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "RN0605-tvOSTests.xctest"
-               BlueprintName = "RN0605-tvOSTests"
-               ReferencedContainer = "container:RN0605.xcodeproj">
+               BuildableName = "fishingApp-tvOSTests.xctest"
+               BlueprintName = "fishingApp-tvOSTests"
+               ReferencedContainer = "container:fishingApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "RN0605-tvOS.app"
-            BlueprintName = "RN0605-tvOS"
-            ReferencedContainer = "container:RN0605.xcodeproj">
+            BuildableName = "fishingApp-tvOS.app"
+            BlueprintName = "fishingApp-tvOS"
+            ReferencedContainer = "container:fishingApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "RN0605-tvOS.app"
-            BlueprintName = "RN0605-tvOS"
-            ReferencedContainer = "container:RN0605.xcodeproj">
+            BuildableName = "fishingApp-tvOS.app"
+            BlueprintName = "fishingApp-tvOS"
+            ReferencedContainer = "container:fishingApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

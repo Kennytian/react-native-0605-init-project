@@ -1,4 +1,4 @@
-package com.rn0605;
+package com.kenny.fishingapp;
 
 import android.content.Context;
 import com.facebook.flipper.android.AndroidFlipperClient;

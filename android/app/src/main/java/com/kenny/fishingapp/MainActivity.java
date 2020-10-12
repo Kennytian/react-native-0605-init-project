@@ -1,4 +1,4 @@
-package com.rn0605;
+package com.kenny.fishingapp;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "RN0605";
+        return "fishingApp";
     }
 }
